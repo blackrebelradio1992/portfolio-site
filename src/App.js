@@ -5,6 +5,7 @@ import { CustomNavbar } from './components/NavBar';
 import { Banner } from "./components/Banner";
 import { Skills } from './components/Skills';
 import  PlaySound  from './components/appMusic';
+import { Projects } from './components/Projects';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <CustomNavbar />
       <Banner />
       <Skills />
+      <Projects />
       <PlaySound />
     </div>
   );
